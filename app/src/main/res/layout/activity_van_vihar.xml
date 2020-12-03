@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/progress"></ProgressBar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/van"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/margin10"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-condensed-light"
+        android:id="@+id/place">
+
+    </TextView>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/transblack"
+        android:layout_marginHorizontal="@dimen/margin10"></TextView>
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        >
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    app:cardCornerRadius="@dimen/cardmargin"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/vanvihar1"
+            android:scaleType="fitXY"
+            android:src="@drawable/vanvihar1"
+            android:layout_alignParentTop="true"
+            ></ImageView>
+
+</androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/location"
+            android:visibility="gone"
+            android:id="@+id/locationlogo"
+            ></ImageView>
+       <TextView
+           android:layout_width="match_parent"
+           android:textColor="@color/link"
+           android:layout_height="20dp"
+           android:text="Bhopal . Madhya Pradesh . India"
+           android:id="@+id/location"
+           android:visibility="gone"
+           android:layout_toRightOf="@id/locationlogo"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/ratingshow"
+android:visibility="gone"
+            android:textColor="@color/yellowlight"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+
+            ></TextView>
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:outlineAmbientShadowColor="@color/transblack"
+        android:outlineSpotShadowColor="@color/transblack"
+        android:background="@color/white"
+        android:layout_margin="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/about"
+            android:textColor="@color/black"
+
+            android:id="@+id/about"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/about"
+            android:id="@+id/line"
+            android:textColor="@color/white"
+            android:text="@string/timing1"
+            android:background="@color/black"></TextView>
+        <ImageView
+            android:layout_marginTop="11dp"
+            android:layout_width="30dp"
+            android:layout_height="18dp"
+            android:src="@drawable/timing"
+            android:id="@+id/timinglogo"
+            android:layout_below="@+id/line"
+            ></ImageView>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_marginTop="6dp"
+            android:layout_below="@id/line"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textSize="19dp"
+            android:id="@+id/timing1"
+        android:layout_toRightOf="@+id/timinglogo">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/timing1"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/timing1"
+            android:textSize="15dp"
+            android:id="@+id/timing2">
+        </TextView>
+
+
+
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="18dp"
+            android:src="@drawable/waiting"
+            android:id="@+id/waiting"
+            android:layout_below="@+id/timing2"
+            ></ImageView>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_below="@id/timing2"
+            android:layout_height="wrap_content"
+            android:text="@string/durtion"
+            android:textSize="19dp"
+            android:id="@+id/waiting1"
+            android:layout_toRightOf="@+id/waiting">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/waiting1"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hour"
+            android:textSize="15dp"
+            android:id="@+id/waiting2">
+        </TextView>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="18dp"
+            android:src="@drawable/fees"
+            android:id="@+id/fees"
+            android:layout_below="@+id/waiting2"
+            ></ImageView>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_below="@id/waiting2"
+            android:layout_height="wrap_content"
+            android:text="@string/entry"
+            android:textSize="19dp"
+            android:id="@+id/fees1"
+            android:layout_toRightOf="@+id/fees">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/fees1"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fees"
+            android:textSize="15dp"
+            android:id="@+id/fees2">
+        </TextView>
+
+
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:outlineSpotShadowColor="@color/transblack"
+        android:outlineAmbientShadowColor="@color/transblack"
+        android:layout_margin="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/reach"
+        android:textColor="@color/black"
+
+        android:id="@+id/reach"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/reach"
+        android:id="@+id/line1"
+        android:textColor="@color/black"
+        android:background="@color/black"></TextView>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/location"
+            android:id="@+id/add3"
+            android:layout_below="@+id/line1"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_marginTop="6dp"
+            android:layout_below="@id/line1"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textSize="19dp"
+            android:layout_toRightOf="@+id/add3"
+            android:id="@+id/add1"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/add3"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="Near CM House,Bhopal,Madhya Pradesh 462023,India "
+            android:textSize="15dp"
+            android:id="@+id/add2">
+        </TextView>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="21dp"
+            app:srcCompat="@drawable/ic_lightbulb_outline_black_24dp"
+            android:id="@+id/buslogo"
+            android:layout_below="@+id/add2"
+            ></ImageView>
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/add2"
+            android:layout_height="wrap_content"
+            android:text="Tips:"
+            android:textSize="19dp"
+            android:layout_toRightOf="@+id/buslogo"
+            android:id="@+id/bus1"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/bus1"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/bus2">
+        </TextView>
+
+
+
+
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:outlineSpotShadowColor="@color/transblack"
+        android:outlineAmbientShadowColor="@color/transblack"
+        android:layout_margin="10dp">
+ <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/overview"
+            android:textColor="@color/black"
+
+            android:id="@+id/overview"></TextView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/language1"
+        android:layout_toRightOf="@id/overview">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:checked="true"
+            android:buttonTint="@color/black"
+            android:id="@+id/english"></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hindi"
+            android:buttonTint="@color/black"
+            android:id="@+id/hindi"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/overview"
+        android:id="@+id/line2"
+        android:textColor="@color/black"
+        android:background="@color/black"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/line2"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/vanoverview"
+            android:textSize="15dp"
+            android:id="@+id/overview1">
+        </TextView>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/bluelight"
+        android:visibility="gone"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giving Rating for Place:"
+
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:id="@+id/star">   </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/star"
+            android:id="@+id/line3"
+            android:textColor="@color/black"
+            android:background="@color/black"></TextView>
+        <RatingBar android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_below="@+id/line3"
+
+android:scaleY=".7"
+            android:scaleX=".7"
+
+            android:layout_marginTop="20dp"
+            android:id="@+id/ratingive">
+
+
+        </RatingBar>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ratingshow1"
+            android:layout_toRightOf="@+id/ratingive"
+            android:layout_below="@+id/line3"
+
+            android:textColor="@color/yellowlight"
+            android:textStyle="bold"
+
+            ></TextView>
+
+
+        <Button
+            android:layout_height="30dp"
+            android:layout_width="80dp"
+            android:text="Submit"
+            android:background="@drawable/buttondesign1"
+            android:textColor="@color/white"
+            android:layout_below="@+id/ratingive"
+            android:id="@+id/ratingsubmit"
+            ></Button>
+
+
+
+
+
+
+    </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

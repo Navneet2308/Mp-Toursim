@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_margin="20dp"
+    android:id="@+id/click"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="@dimen/cardmargin"
+        android:background="@color/transblack"
+        android:elevation="20dp"
+        android:outlineAmbientShadowColor="@color/bluelight"
+        android:outlineSpotShadowColor="@color/bluelight"
+
+        app:cardBackgroundColor="@color/transblack"
+      >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maihar"
+
+        android:textColor="@color/bluelight"
+
+        android:id="@+id/cityname"
+      android:layout_gravity="center"
+        android:textSize="20dp"></TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+          android:layout_gravity="right"
+            android:id="@+id/next"
+
+app:srcCompat="@drawable/ic_navigate_next_black_24dp"
+            ></ImageView>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Madhya Pradesh Tourism</string>
+    <string name="city">Select Visiting City</string>
+    <string name="place">Places To Visit In Bhopal</string>
+    <string name="vanvihar">1.Van Vihar</string>
+    <string name="Bhimvetka">4.Bhimbetka</string>
+    <string name="visit">Visit</string>
+    <string name="entry">Entry fee:</string>
+    <string name="time">Timings:</string>
+    <string name="sanchi">5.Sanchi Stupa</string>
+    <string name="birla">7.Birla Mandir</string>
+
+    <string name="durtion">Time Required:</string>
+    <string name="fees">"<u>INR 15 for Indians|INR 200 for foreigners</u> and Differs on the basis of the vehicles used, number of people, and purpose of visit</string>
+    <string name="yudhover">A know your army establishment open for all, free of cost. The landscape provides an insight into the nation is pride, the indian army.</string>
+    <string name="peopleover">An amusement park plus shopping mall in Bhopal. The People’s mall is loved for its number of life size replicas including the Taj Mahal, Red Fort, Eiffel tower, Lotus temple, the Statue of Liberty, Egyptian Pyramids and the India Gate.</string>
+    <string name="van">Van Vihar</string>
+    <string name="birlaover">Built at the summit of Arera hills is the Birla Mandir, structured with grandiose scale and design. It is an awe inspiring spectacle that showcases a panoramic view of the historic city of Bhopal.</string>
+    <string name="sauryaover">Shaurya Smarak is a war memorial situated at Bhopal, inaugurated by the Prime Minister of India Narendra Modi on 14 October 2016.</string>
+    <string name="raisenover">Raisen Fort is a substantial historical edifice placed atop a hill enthralling a vast water reservoir, palaces and a few temples within the fort.</string>
+    <string name="reach">How To Reach</string>
+    <string name="hour">3,4 Hours</string>
+    <string name="sanchiover">56 kms north west of Bhopal city lies the historical architecture Sanchi Stupa, a UNESCO world heritage site since 1989.</string>
+    <string name="about">About</string>
+    <string name="bhimover">Bhimbetka is a world heritage site and houses one of the oldest cave paintings in the world. A must-visit for all history-enthusiast.</string>
+    <string name="hour1">24 Hours</string>
+    <string name="bus">Buses:</string>
+    <string name="vanoverview">Located in the city of lakes, Bhopal, Van Vihar is a National Park and a Zoological Space that operates under the guidelines of the Central Zoo Authority. It is located just adjacent to the Upper Lake in Bhopal, near Shymala Hills. The animals here are kept closest to their natural habitats, making it a haven for people who love nature. You can spot a vast variety of animals including leopards, cheetah, Neelgai, panthers, etc. as well as birds such as kingfishers, bulbuls, wagtails, and some migratory species. The best time to visit here is between July and September when the chances of seeing a white tiger are the highest. Sprawling over a vast area of 4.45 sq.km, this protected area ensures complete security to animals from poaching and other illegal activities.
+        The national park categorises animals in 2 categories, i.e., carnivores and herbivores. Herbivores are allowed to roam freely whereas carnivores are kept in enclosed areas. The land is strictly under protection so as to safeguard its flora and fauna. A visit to Van Vihar National Park becomes more enjoyable when you take the safari ride. Furthermore, the adjoining upper lake enhances the beauty of this park. It gets even prettier during the winter season when its time for the birds to migrate. Sightseeing around the park is quite easy as it gives access to its visitors via a network of roads passing through it.</string>
+    <string name="overview">Overview:</string>
+    <string name="cab">Cabs</string>
+    <string name="address">Address:</string>
+    <string name="jamaview">Constructed during the period of Quidisiya Begum, Jama Masjid is a revered shrine and popular tourist destination in the city of Bhopal. It is officially known as Taj-ul-Masajid, which translates to "Crown Among Mosques". The magnificent architecture of Jama Masjid boasts of classic Islamic architecture with its beautiful shrine and two tall minarets. It is the largest mosque in the country and is counted among the largest in the continent as well.
+
+The charm and religious significance of Jama Masjid attract devotees from all over Bhopal as well as from far off places. The mosque is spread over a large area and its simple and charming design can be spotted from far away. It is made out of red stones and has two minarets flanking the main structure. The entire surface of Jama Masjid is embellished with careful carvings and ornamental windows, with the three marble domes standing out against the contrast of the blue sky. Inside the complex, a small pond and the royal market area is present as well. A symbol of all that is spiritual and divine, Taj - ul - Masajid is a wonderful experience. </string>
+    <string name="direction">Direction</string>
+    <string name="lakeoverview">The capital city of Madhya Pradesh holds a significant number of lakes hence widely known as Bhopal the city of lakes. Upper Lake is the most significant lake of Bhopal commonly known as the Bhojtal. It’s the oldest human-made lake in the country that lies on the west of Bhopal. The locals also call it Bada Talab. Serving around 30 million gallons of water the lake is a primary source of potable water to the residents of the city.
+        This beautiful vast water body was named after King Bhoj who built the lake across Kolans River in the 11th century. According to the folklore, the king constructed this humongous lake to cure himself of his skin disease. The pillar on one corner of the lake holds the statue of Raja Bhoj. The Upper Lake is separated from the lower lake by an overbridge called Pul Pukhta.
+        Since agriculture is the main source of livelihood for people of Bhopal, the lake is the primary source of water for irrigation. On the eastern side of the lake, the boat club was established offering some water sports for the visitors such as parasailing, kayaking, canoeing, rafting etc. Within its vicinity lies the scenic Kamala Park. The royal garden is flooded with tourists and visitors during the peak seasons since it is a hub for all adventure enthusiasts. The boat club, sunset, aquarium serenaded by the cool breeze of Bhopal is a perfect getaway.</string>
+    <string name="timing1">April - July: 6:00 AM - 7:00 PM ,
+August - October: 6:30 AM - 6:30 PM ,
+November - 15th February: 6:30 AM - 6:00 PM ,
+16th February - April: 6:30 AM - 6:30 PM</string>
+    <string name="upperlake">2.Upper Lake</string>
+    <string name="upperlake1">Upper Lake</string>
+    <string name="jamamahjid">3.Jama Masjid</string>
+    <string name="parajama">Constructed during the period of Quidisiya Begum, Jama Masjid boasts of classic Islamic Architecture in its beautiful shrine and two tall minarets.</string>
+    <string name="paragraphupperlake">A beautiful man-made lake built in the 11th century, the Upper lake was constructed by Raja Bhoj to cure skin diseases which were otherwise incurable. It is a splendid spot with an attractive royal garden called Kamla Park in the vicinity.</string>
+    <string name="paragraphavanvihar">Van Vihar National Park placed in central India in Bhopal, Madhya Pradesh is declared the same since 1983 and extends over an area of about 4.45 sq kms. </string>
+    <string name="title_activity_ola">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Jama">Jama Masjid</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Search</string>
+    <string name="title_notifications">Cities</string>
+    <string name="title_categories">Categories</string>
+</resources>

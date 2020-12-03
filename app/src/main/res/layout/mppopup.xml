@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      app:cardCornerRadius="@dimen/cardmargin"
+      android:elevation="@dimen/margin10"
+      android:layout_margin="@dimen/margin10"
+      app:cardElevation="@dimen/margin10"
+      android:layout_height="300dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@color/transblack1"
+        android:id="@+id/mpimg"
+        android:src="@drawable/mpnewlogo"
+        ></ImageView>
+  </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabs"
+        android:layout_margin="@dimen/margin10"
+        app:tabIndicatorColor="@color/bluelight"
+        app:tabTextColor="@color/bluelight"
+        ></com.google.android.material.tabs.TabLayout>
+
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foregroundGravity="center"
+    android:id="@+id/progress"
+    android:layout_gravity="center"></ProgressBar>
+
+    <ScrollView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+     android:scrollbars="none"
+        android:layout_margin="@dimen/margin10"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:gravity="center"
+            android:textColor="@color/bluelight"
+            android:textSize="20dp"
+            android:layout_margin="@dimen/margin10"
+            android:fontFamily="sans-serif"
+            android:id="@+id/about"
+           ></TextView>
+        </RelativeLayout>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

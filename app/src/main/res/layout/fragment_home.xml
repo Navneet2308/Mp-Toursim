@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/line"
+        android:layout_marginHorizontal="@dimen/margin10"
+
+        android:background="@drawable/lineclr"></View>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line"
+        android:layout_centerInParent="true"
+        android:id="@+id/progress1"></ProgressBar>
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_below="@+id/progress1"
+      android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/liner2"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_height="200dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:cardCornerRadius="@dimen/cardmargin"
+                        android:elevation="3dp"
+                        android:outlineAmbientShadowColor="@color/colorPrimary"
+                        android:outlineSpotShadowColor="@color/colorPrimary"
+                        android:id="@+id/bnnercardview"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:id="@+id/bannrimg"></ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bnnrback"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:id="@+id/bnrtext"
+                            android:textSize="30dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textColor="@color/bluelight"
+                            android:text="THE HEART OF INDIA"></TextView>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height=".00001dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/transblack"
+                    android:id="@+id/line3"
+                    android:layout_below="@id/liner2"></View>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_below="@id/line3"
+        android:id="@+id/lyout1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear1"
+            android:layout_margin="@dimen/margin10"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="250dp"
+                android:text="Popular Places of Madhya Pradesh"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin10"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+
+            android:foregroundGravity="center"
+            android:id="@+id/viewallview1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/viewall1"
+                android:textSize="15dp"
+                android:textColor="@color/transblack"
+                android:text="View all"
+                android:fontFamily="sans-serif-medium"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nextblack"></ImageView>
+
+        </LinearLayout>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:layout_below="@id/linear1"
+    android:id="@+id/pplrrecycler"></androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".00001dp"
+        android:layout_margin="10dp"
+        android:background="@color/transblack"
+        android:id="@+id/line2"
+        android:layout_below="@id/lyout1"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:id="@+id/recylative">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear"
+            android:layout_margin="@dimen/margin10"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/plcname1"
+                android:fontFamily="sans-serif-condensed-light"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="The most famous places in your district"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin10"
+            android:layout_alignParentRight="true"
+            android:id="@+id/viewallview"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/viewall"
+                android:textSize="15dp"
+                android:textColor="@color/transblack"
+                android:text="View all"
+                android:fontFamily="sans-serif-medium"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nextblack"></ImageView>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/nearmerecyclerview"
+            android:layout_below="@+id/linear"
+            android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height=".00001dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/transblack"
+                    android:id="@+id/line4"
+                    android:layout_below="@id/recylative"></View>
+
+
+
+
+                <RelativeLayout
+                    android:layout_below="@+id/line4"
+                    android:id="@+id/layout3"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                       android:gravity="center_horizontal"
+                        android:id="@+id/beuty"
+                        android:textColor="@color/transblack"
+                        android:textSize="25dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Beauty of Madhya Pradesh"></TextView>
+
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPager"
+                        android:layout_below="@+id/beuty"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+
+                    <LinearLayout
+                        android:id="@+id/SliderDots"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/viewPager"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="horizontal" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".00001dp"
+                        android:layout_margin="@dimen/margin10"
+                        android:background="@color/transblack"
+                        android:id="@+id/line6"
+                        android:layout_below="@+id/SliderDots"></View>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/layout3"
+                    android:id="@+id/layout4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:tint="#cecece"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bwl"
+                        android:id="@+id/logo"></ImageView>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+  </ScrollView>
+</RelativeLayout>

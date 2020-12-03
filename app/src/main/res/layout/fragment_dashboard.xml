@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:id="@+id/progress"></ProgressBar>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/line"
+        android:layout_marginHorizontal="@dimen/margin10"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/lineclr"></View>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:elevation="@dimen/margin10"
+        android:outlineSpotShadowColor="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        android:layout_below="@+id/line"
+        android:layout_margin="@dimen/margin10"
+        app:cardCornerRadius="@dimen/cardmargin"
+        android:id="@+id/searchcard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="40dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:hint="Search Place here"
+            android:id="@+id/searchplc"
+            ></EditText>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:id="@+id/search"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/transblack"
+                app:srcCompat="@drawable/ic_search_black_24dp"></ImageView>
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin10"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:divider="@color/transblack"
+        android:dividerHeight=".00009dp"
+        android:layout_below="@id/searchcard"></ListView>
+
+
+</RelativeLayout>

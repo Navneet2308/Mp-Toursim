@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="200dp"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/margin10"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    app:cardCornerRadius="@dimen/cardmargin"
+
+    android:background="@color/transblack"
+
+    >
+
+
+<RelativeLayout android:layout_height="200dp"
+    android:layout_width="match_parent"
+    android:id="@+id/click"
+    android:background="@drawable/buttondesign">
+
+    <ImageView
+
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+
+        android:layout_height="200dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/vanvihar"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transblack"
+        android:text="@string/vanvihar"
+        android:textColor="@color/bluelight"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/vanvihar"></TextView>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/lyout1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+        android:background="@color/transblack"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/lyout2"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paragraphavanvihar"
+
+            android:visibility="gone"
+            android:id="@+id/vanparagrapgh"
+            android:textColor="@color/white"
+
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entry"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_below="@id/vanparagrapgh"
+            android:id="@+id/entry"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INR 15 for Indians|INR 200 for foreigners"
+            android:textColor="@color/white"
+            android:layout_below="@id/vanparagrapgh"
+            android:layout_toRightOf="@id/entry"
+            android:id="@+id/price"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_below="@id/lyout2"
+            android:id="@+id/lyout3"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@id/price"
+            android:id="@+id/time"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 am to 5pm"
+            android:textColor="@color/white"
+            android:layout_below="@id/price"
+            android:layout_toRightOf="@id/entry"
+            android:id="@+id/timing"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>
